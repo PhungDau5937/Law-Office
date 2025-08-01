@@ -6,3 +6,4 @@ getMenuSmall.addEventListener('click', function() {
     getNavSmall.classList.toggle('open');
     getNavSmall.classList.toggle('close');
 })
+
