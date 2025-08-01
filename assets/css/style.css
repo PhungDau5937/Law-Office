@@ -583,7 +583,7 @@ a i {
 .container__members-slide {
   max-width: 1200px;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 24px;
   z-index: 0;
 }
 
@@ -639,7 +639,7 @@ a i {
   font-size: 18px;
   font-weight: 500;
   color: #333;
-  padding: 0 10px;
+  text-align: center;
 }
 
 .container__members-card-content .member-description {

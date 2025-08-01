@@ -10,7 +10,6 @@
     />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/reponsive.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -429,20 +428,20 @@
 
     <footer>Copyright © 2025 Văn Phòng Công Chứng Nguyễn Vũ Trung</footer>
 
-    <script src="./javascript/javascript.js"></script>
+    <script src="../javascript/javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".container__members-slide", {
         slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 3,
-        gragCursur: "true",
+        spaceBetween: 25,
         loop: true,
-        loopFillGroupWithBlank: true,
+        centerSlide: 'true',
+        fade: 'true',
+        gragCursur: "true",
         pagination: {
           el: ".swiper-pagination",
-          type: "fraction",
-          dynamicBullets: "true",
+          clickable: true,
+          dynamicBullets: true,
         },
         navigation: {
           nextEl: ".swiper-button-next",
@@ -453,10 +452,10 @@
           0: {
             slidesPerView: 1,
           },
-          520: {
+          768: {
             slidesPerView: 2,
           },
-          950: {
+          1023: {
             slidesPerView: 3,
           },
         },
