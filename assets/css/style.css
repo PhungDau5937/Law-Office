@@ -38,6 +38,10 @@ html {
   background-color: #ddd;
 }
 
+a {
+  z-index: 99999;
+}
+
 a i {
   color: black;
 }
@@ -397,13 +401,11 @@ a i {
   height: 260px;
   bottom: 0;
   right: 0;
-  z-index: 99999;
+  z-index: 99;
   padding: 10px;
   margin-bottom: 20px;
 }
 
-.socal__link {
-}
 
 .socal__link-messege,
 .socal__link-zalo,
