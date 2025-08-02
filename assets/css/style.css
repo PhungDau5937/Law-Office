@@ -406,7 +406,6 @@ a i {
   margin-bottom: 20px;
 }
 
-
 .socal__link-messege,
 .socal__link-zalo,
 .socal__link-phone {
@@ -620,7 +619,7 @@ a i {
   border-radius: 25px 25px 0 0;
 }
 
-.container__members-image-content .card-image{
+.container__members-image-content .card-image {
   position: relative;
   width: 150px;
   height: 150px;
@@ -629,7 +628,7 @@ a i {
   padding: 3px;
 }
 
-.container__members-image-content .card-image img{
+.container__members-image-content .card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -745,8 +744,149 @@ a i {
   line-height: 1.4;
   text-align: justify;
 }
+/* ############# end About page #############  */
 
-/* About page  */
+/* --------------- start fee_schedule page --------------- */
+.container__fee-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fee-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.fee-header h2 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+.fee-header p {
+  margin-top: 12px;
+}
+
+.fee-content {
+  padding: 0 32px;
+}
+
+.fee-content h3 {
+  padding: 12px 0;
+}
+
+.fee-content p {
+  padding: 6px 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.fee-content-b,
+.fee-content-c,
+.fee-content-d,
+.fee-content-3,
+.fee__remains {
+  margin-top: 16px;
+}
+
+.fee__remains {
+  margin-bottom: 32px;
+}
+
+/* table-a*/
+/* table-b*/
+/* table-c*/
+/* table-3*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  max-width: 1000px;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+/* ############# end fee_schedule page ############# */
+
+/* ------------- start procedure_Guide page ------------- */
+.procedure__arround {
+  width: 100%;
+  max-width: 1200px;
+  margin: 32px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.pro__content {
+  width: 68%;
+  text-align: justify;
+}
+
+
+.pro__content .pro__content-I,
+.pro__content .pro__content-II,
+.pro__content .pro__content-III {
+  margin-top: 32px;
+  scroll-snap-align: start;
+}
+
+.pro__content-II ul li {
+  list-style-type: none;
+}
+
+.pro__content p{
+  padding: 2px 0;
+  line-height: 1.6;
+}
+
+.pro__menu {
+  position: relative;
+  width: 30%;
+  text-align: justify;
+  padding: 5px;
+}
+
+.pro__menu .pro__menu-arround {
+  position: sticky;
+  top: 100px;
+  background-color: #f9edd7;
+  padding: 16px;
+}
+
+.pro__menu-arround .pro__menu-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.pro__menu-content a h3{
+  padding: 10px 0;
+}
+
+.pro__menu-title i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.pro__menu a{
+  text-decoration: none;
+}
+
+/* ############# end procedure_Guide page ############# */
 
 /* Footer */
 .footer-section {

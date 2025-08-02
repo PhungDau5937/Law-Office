@@ -94,28 +94,28 @@
     margin: 16px 0;
   }
 
-   /*--------------- About page ---------------*/
+  /*--------------- About page ---------------*/
   /* About slider  */
-  .container__slider-content h2{
+  .container__slider-content h2 {
     font-size: 14vw;
   }
 
   /* About Bio  */
   .container__bio {
     min-height: 100vh;
-  } 
+  }
 
   .container__bio-arround {
     display: flex;
     flex-direction: column;
   }
 
-  .container__bio-content h2{
+  .container__bio-content h2 {
     font-size: 5vw;
     padding: 10px 20px;
   }
 
-  .container__bio-content p{
+  .container__bio-content p {
     width: 100%;
     font-size: 4vw;
     padding: 10px 20px;
@@ -125,11 +125,11 @@
     margin: 15px auto;
   }
 
-  .container__bio-image{
+  .container__bio-image {
     margin: 0 auto;
   }
 
-  .container__bio-image img{
+  .container__bio-image img {
     width: 375px;
     height: 375px;
     margin: 20px 0;
@@ -140,7 +140,7 @@
     padding: 16px 0;
   }
 
-  .container__members-title h2{
+  .container__members-title h2 {
     font-size: 8vw;
   }
 
@@ -168,7 +168,7 @@
     order: 1;
   }
 
-  .container__prize-image img{
+  .container__prize-image img {
     width: 100%;
     height: 100%;
     padding: 10px 0;
@@ -198,7 +198,7 @@
     order: 1;
   }
 
-  .container__committed-image img{
+  .container__committed-image img {
     width: 100%;
     height: 100%;
     padding: 10px 0;
@@ -326,7 +326,36 @@
     width: 100%;
   }
 
- 
+  /* --------------- start fee_schedule page --------------- */
+  .fee-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .fee-header h2,
+  .fee-header p {
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  .fee-header img {
+    max-width: 375px;
+  }
+
+  /* --------------- end fee_schedule page --------------- */
+
+  /* --------------- start procedure_Guide page --------------- */
+  .container__slider-content h2 {
+    font-size: 8vw;
+  }
+
+  .pro__content {
+    width: 100%;
+  }
+
+  .pro__menu {
+    display: none;
+  }
+  /* --------------- end procedure_Guide page --------------- */
 }
 
 /* Tablet  768px → 1023px */
