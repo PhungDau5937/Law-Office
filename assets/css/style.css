@@ -15,6 +15,11 @@ html {
   border-radius: 50px;
   background-color: #f05454;
   border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
 
 .btn a {
@@ -392,6 +397,7 @@ a i {
   right: 0;
   border-radius: 0;
   font-size: 15px;
+  color: #fff;
 }
 
 /* Message contact socal midia  */
