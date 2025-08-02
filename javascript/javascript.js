@@ -67,6 +67,7 @@ function toast({ title, message, type, color, duration }) {
 }
 
 // Xu ly button concact
+if (getBtnContact)
 getBtnContact.addEventListener("click", function (e) {
   const name = document.querySelector(".name").value.trim();
   const email = document.querySelector(".email").value.trim();
